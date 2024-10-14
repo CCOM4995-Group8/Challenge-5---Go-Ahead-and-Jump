@@ -8,7 +8,7 @@ version to your preferred version:
 
 ![{0DA8C0F7-27D1-4360-8713-AB69022320AA}](https://github.com/user-attachments/assets/4cc9758a-d35f-4306-9008-1387d5ec23de)
 
-Script variables:
+Script variables declared:
 
 ![{3960FEC7-8C95-41E5-80F1-7D6D8A65E9E9}](https://github.com/user-attachments/assets/3be8b2f1-ac28-4dd0-bba6-0958f5273e71)
 
@@ -19,14 +19,16 @@ Script Body:
 With the following code lines, we were able to make the character run when the user presses Left Shift,
 and we were able to make the character jump when the user presses Space.
 
- if (Input.GetKey(KeyCode.LeftShift))
-        {
-            transform.Translate(0, 0, speed*Time.deltaTime*2);
-        }
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.Translate(0, speed*Time.deltaTime, 0);
-        }
+![{24C10F50-5E12-420A-B42F-0F354FFC8D5A}](https://github.com/user-attachments/assets/e1b65eec-6b59-4dc8-a93d-3c8a162c6fd3)
+
+
+To make the character shoot, we used the Player Shooting script from a few challenges ago:
+
+![{A189D354-5AFF-4168-890A-F54F845C3686}](https://github.com/user-attachments/assets/44f2e20c-6df0-4a05-b01c-01927ce96993)
+
+Variable Values in inspect screen:
+
+![{C1D99957-854B-4B23-888D-3FB99336B3A1}](https://github.com/user-attachments/assets/e755b464-b485-4bcc-a6f6-e76c576b8d2e)
 
 Results:
 
